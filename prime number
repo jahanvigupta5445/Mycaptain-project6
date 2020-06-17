@@ -1,0 +1,17 @@
+#include<stdio.h>
+int rec(int x)
+{
+if(x%2==0)
+{
+printf(" %d is not a prime number",x);
+}
+return 0;
+}
+int main()
+{
+int num, prim;
+printf(" enter any number");
+scanf("%d",&num);
+prim=rec(num);
+return 0;
+}
